@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 ## Native Starter Kit v6.1.0
 
@@ -167,3 +168,6 @@ Note: If you are building Native Starter Kit for first time on your system, plea
 
 
 For apps with more advance designs, please visit **[NativeBase Market](https://market.nativebase.io/)**.
+=======
+# progress-UTS
+>>>>>>> 2caee909d17b75f4a2215c59b92c4b4991700544
