@@ -9,7 +9,7 @@ import { setUser } from '../../actions/user';
 import styles from './styles';
 
 var SERVER_LOGIN_URL = 'http://mhs.rey1024.com/1415051073/login.php';
-const background = require('../../../images/Coins.png');
+const background = ({uri : 'http://mhs.rey1024.com/1415051073/Coins.png'});
 
 class Login extends Component {
 
@@ -51,7 +51,6 @@ class Login extends Component {
       <Container>
         <View style={styles.container}>
           <Content>
-            <Image source={background} style={styles.shadow}/>
               <View style={styles.bg}>
                 <Item style={styles.input}>
                   <Icon active name="person" />

@@ -10,7 +10,7 @@ import { setIndex } from '../../actions/list';
 import { openDrawer } from '../../actions/drawer';
 import styles from './styles';
 
-const moneyIcon = require('../../../images/money.png');
+const moneyIcon = ({uri : 'http://mhs.rey1024.com/1415051073/money.png'});
 var URL="http://mhs.rey1024.com/1415051073/list.php";
 
 class Home extends Component {

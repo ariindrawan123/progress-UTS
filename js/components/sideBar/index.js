@@ -28,7 +28,10 @@ class SideBar extends Component {
           <Text>Home</Text>
         </ListItem>
         <ListItem button onPress={() => { Actions.blankPage(); this.props.closeDrawer(); }} >
-          <Text>Blank Page</Text>
+          <Text>Daftar Coin</Text>
+        </ListItem>
+        <ListItem button onPress={() => { Actions.map(); this.props.closeDrawer(); }} >
+          <Text>Peta</Text>
         </ListItem>
       </Content>
     );
